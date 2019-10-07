@@ -6,13 +6,12 @@
 
 int main(int argc, char **argv)
 {
-
 	return EXIT_SUCCESS;
 }
 
 
 /*
-	Orthographer (ScriptName.y -> ScriptName.h):
+	Orthographer (ScriptName.l -> ScriptName.h):
 		Takes the grammer files and creates headders for C++ to read?
 	Translator (File.type -> std::string):
 		Loads the file to string, then passes that to Lexical Analizer.
