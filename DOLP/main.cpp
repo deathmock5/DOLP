@@ -1,11 +1,24 @@
 /* main.cpp */
 #include <iostream>
+#include <fstream>
 #include "OrthoGrapher.h"
 
 #define _DOLP_MAIN_
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv){
+	if (argc <= 1) {
+		std::cout << "Usage: " << argv[0] << " langname.l" << std::endl;
+		return EXIT_FAILURE;
+	}
+	else
+	{
+		OrthoGrapher orth(argv[1]);
+		std::ofstream out("output.txt");
+		if (out) {
+			out << orth.getOutput();
+			out.close();
+		}
+	}
 	return EXIT_SUCCESS;
 }
 

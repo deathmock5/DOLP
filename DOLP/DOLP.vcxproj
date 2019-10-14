@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="include\DOLP.h" />
     <ClInclude Include="include\OrthoGrapher.h" />
+    <ClInclude Include="include\Token.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
