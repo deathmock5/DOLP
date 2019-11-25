@@ -2,6 +2,9 @@
 Distributed Orthographic Lexical Parser
 
 Simply put, the dolp project is a simplified method for inclusion of scripting in other programs.
+Think, Cross platform, cross language Just In Time(JIT) Compiler.
+
+Work in progress.
 
 ## General usage
 
